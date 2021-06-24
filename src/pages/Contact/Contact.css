@@ -1,0 +1,89 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4.5rem;
+}
+
+.svgs {
+  width: 13.1rem;
+  margin-left: 20rem;
+}
+
+.form {
+  margin-top: 10rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+}
+
+#leftleg {
+  animation: leftleg 0.8s infinite alternate;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+#lefthand {
+  animation: lefthand 1s infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#head {
+  animation: head 0.7s ease-in-out infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+.svgs {
+  animation: walking 0.7s ease-in-out 1 alternate;
+  transform-origin: center;
+}
+
+.contact-container {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+@keyframes walking {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes leftleg {
+  from {
+    transform: rotatez(-5deg);
+  }
+  to {
+    transform: rotatez(5deg);
+  }
+}
+
+@keyframes lefthand {
+  from {
+    transform: rotatez(-1deg);
+  }
+  to {
+    transform: rotatez(2deg);
+  }
+}
+
+@keyframes head {
+  from {
+    transform: rotatez(8deg);
+  }
+  to {
+    transform: rotatez(2deg);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .svgs {
+    width: 17.2rem;
+    margin-left: 30rem;
+  }
+}

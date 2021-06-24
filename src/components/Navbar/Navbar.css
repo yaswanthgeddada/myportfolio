@@ -1,0 +1,27 @@
+.header {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4rem;
+  font-family: "manrope";
+  width: 100%;
+}
+
+.navbar {
+  margin-right: 20rem;
+  width: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .item {
+  color: rgba(149, 146, 146, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar .active {
+  color: black;
+  font-weight: bold;
+}

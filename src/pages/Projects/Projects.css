@@ -1,0 +1,63 @@
+.parentContainer {
+  margin-right: 5rem;
+}
+
+.projectTag {
+  font-size: 1.5rem;
+  color: rgba(108, 99, 255, 1);
+}
+
+.ProjectContainer {
+  background-color: azure;
+  border-radius: 3rem;
+  box-shadow: 5px 10px 8px #d1d1d1;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.screenshots {
+  height: 45rem;
+}
+
+.projectTitle {
+  font-size: 2.6rem;
+}
+
+.parent {
+  position: sticky;
+  top: 0;
+  z-index: -2;
+}
+
+.sidesplash {
+  position: absolute;
+  top: 0;
+
+  z-index: -1;
+}
+
+.projectdescription {
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.about-project {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.link-project {
+  font-size: 1.5rem;
+}
+
+.link-project a {
+  font-size: 1.5rem;
+}

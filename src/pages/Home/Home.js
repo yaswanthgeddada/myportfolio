@@ -15,8 +15,9 @@ const Home = () => {
           </div>
           <p className="and">&</p>
           <span id="views">
-            <h3 className="count">100</h3>&nbsp;
-            <p className="text"> People viewed this profile</p>
+            {/* <h3 className="count">100</h3>&nbsp;
+            <p className="text"> People viewed this profile</p> */}
+            <p className="geddada">This is my profile</p>
           </span>
         </div>
 

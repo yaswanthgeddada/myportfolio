@@ -1,0 +1,18 @@
+.main {
+  margin-top: 10rem;
+  margin-left: 10%;
+  font-size: 5rem;
+}
+
+.main h1 {
+  color: rgba(248, 109, 112, 1);
+  font-size: 3rem;
+}
+
+.main section {
+  margin: 2rem;
+}
+.splash {
+  bottom: 0;
+  position: absolute;
+}

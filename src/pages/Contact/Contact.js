@@ -5,12 +5,17 @@ const Contact = () => {
   return (
     <div className="anim">
       <div className="contact-container">
-        <div>
-          <form className="form">
+        <div className="contact-info">
+          {/* <form className="form">
             <input type="text" placeholder="emial" />
             <textarea type="text" placeholder="emial" />
             <button>Send</button>
-          </form>
+          </form> */}
+
+          <h1>You can contact me on :</h1>
+          <p>yaswanthgeddada@gmail.com</p>
+          <h3>Mobile Number :</h3>
+          <p>9542736477</p>
         </div>
         <div className="svgs">
           <svg

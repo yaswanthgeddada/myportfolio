@@ -45,6 +45,23 @@
   overflow-x: hidden;
 }
 
+.contact-info {
+  font-size: 3rem;
+  background-color: aliceblue;
+  border: chartreuse;
+  border-radius: 10px;
+  height: 100%;
+  padding: 5rem;
+}
+
+.contact-info h1 {
+  color: rgba(248, 109, 112, 1);
+  margin-top: 1rem;
+}
+.contact-info h3 {
+  color: rgba(248, 109, 112, 1);
+  margin-top: 1rem;
+}
 @keyframes walking {
   from {
     transform: translateX(200%);

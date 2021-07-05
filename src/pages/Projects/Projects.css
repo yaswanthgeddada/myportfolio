@@ -61,3 +61,49 @@
 .link-project a {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 500px) {
+  .ProjectContainer {
+    background-color: azure;
+    border-radius: 3rem;
+    box-shadow: 5px 10px 8px #d1d1d1;
+    height: 100%;
+
+    font-size: 1rem;
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    margin-bottom: 3rem;
+  }
+  .parentContainer {
+    margin-right: 0rem;
+  }
+
+  .projectdescription {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .screenshots {
+    height: 25rem;
+    margin: 10px;
+  }
+  .link-project {
+    font-size: 1rem;
+  }
+
+  .link-project a {
+    font-size: 1rem;
+  }
+  .projectTag {
+    font-size: 1rem;
+    color: rgba(108, 99, 255, 1);
+  }
+}

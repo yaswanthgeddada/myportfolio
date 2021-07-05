@@ -108,8 +108,7 @@ const Projects = () => {
               href="https://github.com/yaswanthgeddada/AmazonClone"
               target="popup"
             >
-              {" "}
-              https://github.com/yaswanthgeddada/AmazonClone
+              https://github.com /yaswanthgeddada/AmazonClone
             </a>
           </p>
         </div>

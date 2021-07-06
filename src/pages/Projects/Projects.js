@@ -41,6 +41,42 @@ const Projects = () => {
       </div>
       <div className="ProjectContainer">
         <div className="projectdescription">
+          <h1 className="projectTitle">Catch the Police</h1>
+          <p className="about-project">
+            This is a web-app developed with ReactJs, Firebase and styled with
+            css. It is a maps application used to locate the police on streets
+            and roads with users feedback.
+            <br />
+            <br />
+            The main objective of this application is to provide location of the
+            police to the users so that they will wear helmets while driving the
+            bike.
+            <br />
+            <br />
+            This will also helps the women to check police on roads, so that
+            they can be safe from chain snatchers and more dark incidents while
+            they are alone on roads.
+            <br />
+            <br />I used MapBox Api to display the maps and deployed on heroku.
+          </p>
+          <br />
+          <p className="link-project">
+            Here is the deployed version of the application:
+            <a href="http://policemawa.herokuapp.com/" target="popup">
+              {" "}
+              http://policemawa.herokuapp.com/
+            </a>
+          </p>
+          <br />
+        </div>
+        <img
+          src="/assets/images/policemawa.png"
+          className="screenshots"
+          alt=""
+        />
+      </div>
+      <div className="ProjectContainer">
+        <div className="projectdescription">
           <h1 className="projectTitle">Chit-Chat</h1>
           <p className="about-project">
             This is a WebApp developed with ReactJs, NodeJs, MongoDb,

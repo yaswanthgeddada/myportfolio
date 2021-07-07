@@ -107,7 +107,16 @@
 
 @media screen and (max-width: 500px) {
   .svgs {
-    width: 17.2rem;
-    margin-left: 0rem;
+    width: 8.2rem;
+
+    margin: auto;
+    margin-top: 6rem;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 4.5rem;
   }
 }

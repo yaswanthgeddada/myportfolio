@@ -1,7 +1,17 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import "./Home.css";
 
 const Home = () => {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    let c = localStorage.getItem("count");
+    if (c === 0 || c === null) {
+      localStorage.setItem("count", count + 1);
+      setCount(1);
+    } else setCount(Number(c) + 1);
+  }, [count]);
+
   return (
     <div className="anim">
       <div className="container">
@@ -17,7 +27,7 @@ const Home = () => {
           <span id="views">
             {/* <h3 className="count">100</h3>&nbsp;
             <p className="text"> People viewed this profile</p> */}
-            <p className="geddada">This is my profile</p>
+            <p className="geddada">This Profile is viewed by {count} </p>
           </span>
         </div>
 

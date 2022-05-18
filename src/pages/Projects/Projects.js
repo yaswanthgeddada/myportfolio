@@ -39,42 +39,49 @@ const Projects = () => {
           </svg>
         </div>
       </div>
+
       <div className="ProjectContainer">
         <div className="projectdescription">
-          <h1 className="projectTitle">Catch the Police</h1>
+          <h1 className="projectTitle">Navya Share</h1>
           <p className="about-project">
-            This is a web-app developed with ReactJs, Firebase and styled with
-            css. It is a maps application used to locate the police on streets
-            and roads with users feedback.
+            This is a web-application developed using ReactJs, Firebase and
+            styled with css. This app is used to share images from the customers
+            with admin.
             <br />
             <br />
-            The main objective of this application is to provide location of the
-            police to the users so that they will wear helmets while driving the
-            bike.
+            Currently this application is in production, used by the photo
+            studio to download the images sent by the customer with out the need
+            of contact information.
             <br />
             <br />
-            This will also helps the women to check police on roads, so that
-            they can be safe from chain snatchers and more dark incidents while
-            they are alone on roads.
+            This app mainly focuses on the privacy of the customer, With this
+            app they dont have to share their mobile number or email with the
+            studio to share images.
             <br />
-            <br />I used MapBox Api to display the maps and deployed on heroku.
+            <br />
+            This app uses Image resizer for thumbnails and lazy loading of
+            images to improve the performance of the application.
+            <br />
+            <br />
+            This app is deployed in firebase
           </p>
           <br />
           <p className="link-project">
-            Here is the deployed version of the application:
-            <a href="http://policemawa.herokuapp.com/" target="popup">
+            Here is the deployed version of the app:
+            <a href="http://navyashare.web.app" target="popup">
               {" "}
-              http://policemawa.herokuapp.com/
+              http://navyashare.web.app
             </a>
           </p>
           <br />
         </div>
         <img
-          src="/assets/images/policemawa.png"
+          src="/assets/images/navyashare.png"
           className="screenshots"
           alt=""
         />
       </div>
+
       <div className="ProjectContainer">
         <div className="projectdescription">
           <h1 className="projectTitle">Chit-Chat</h1>
@@ -149,6 +156,42 @@ const Projects = () => {
           </p>
         </div>
         <img src="/assets/images/Amazon.png" className="screenshots" alt="" />
+      </div>
+      <div className="ProjectContainer">
+        <div className="projectdescription">
+          <h1 className="projectTitle">Catch the Police</h1>
+          <p className="about-project">
+            This is a web-app developed with ReactJs, Firebase and styled with
+            css. It is a maps application used to locate the police on streets
+            and roads with users feedback.
+            <br />
+            <br />
+            The main objective of this application is to provide location of the
+            police to the users so that they will wear helmets while driving the
+            bike.
+            <br />
+            <br />
+            This will also helps the women to check police on roads, so that
+            they can be safe from chain snatchers and more dark incidents while
+            they are alone on roads.
+            <br />
+            <br />I used MapBox Api to display the maps and deployed on heroku.
+          </p>
+          <br />
+          <p className="link-project">
+            Here is the deployed version of the application:
+            <a href="http://policemawa.herokuapp.com/" target="popup">
+              {" "}
+              http://policemawa.herokuapp.com/
+            </a>
+          </p>
+          <br />
+        </div>
+        <img
+          src="/assets/images/policemawa.png"
+          className="screenshots"
+          alt=""
+        />
       </div>
     </div>
   );

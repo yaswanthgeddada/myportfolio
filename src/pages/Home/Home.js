@@ -1,16 +1,27 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import axios from "axios";
 import "./Home.css";
 
+const baseUrl =
+  "https://yaswanthgeddadaportfolio-default-rtdb.firebaseio.com/viewCount/-N2KR4m9DWRoPB1tkYl0.json";
+
+let c = 0;
 const Home = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState("...");
   useEffect(() => {
-    let c = localStorage.getItem("count");
-    if (c === 0 || c === null) {
-      localStorage.setItem("count", count + 1);
-      setCount(1);
-    } else setCount(Number(c) + 1);
-  }, [count]);
+    axios
+      .get(baseUrl)
+      .then((res) => (c = res.data.viewCount + 1))
+      .then((r) => {
+        if (!sessionStorage.getItem("isViewed")) {
+          sessionStorage.setItem("isViewed", true);
+          axios.put(baseUrl, { viewCount: c }).then(() => setCount(c));
+        } else {
+          setCount(c);
+        }
+      });
+  }, []);
 
   return (
     <div className="anim">

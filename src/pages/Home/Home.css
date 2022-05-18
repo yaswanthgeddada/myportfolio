@@ -39,6 +39,18 @@
   color: rgba(108, 99, 255, 1);
 }
 
+.countNumber {
+  color: rgba(248, 109, 112, 1);
+  font-size: 6rem;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px 5px rgb(190, 190, 190);
+}
+
 .count {
   color: rgba(11, 0, 176, 1);
 }

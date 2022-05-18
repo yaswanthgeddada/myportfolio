@@ -38,7 +38,11 @@ const Home = () => {
           <span id="views">
             {/* <h3 className="count">100</h3>&nbsp;
             <p className="text"> People viewed this profile</p> */}
-            <p className="geddada">This Profile is viewed by {count} </p>
+            <p className="geddada order">
+              {" "}
+              <span class="countNumber"> {count}&nbsp;</span> people viewed this
+              profile{" "}
+            </p>
           </span>
         </div>
 

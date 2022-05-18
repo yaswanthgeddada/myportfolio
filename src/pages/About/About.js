@@ -7,14 +7,52 @@ const About = () => {
       <div className="main">
         <section>
           <h1>Skill Set :</h1>
-          <p>
-            Node.js , Express, MongoDb, Angular, React.js, MySql, Java, Python,
-            C#, ASPDotNet, javascript, Firebase, Socket.io
-          </p>
+
+          <div class="">
+            <span class="skills">
+              <h4 class="skillHeading">Frontend</h4>{" "}
+              <p>
+                : ReactJS, Angular, HTML, CSS, Javascript,Bootstrap,TailwindCSS
+              </p>
+            </span>
+            <br />
+            <span class="skills">
+              <h4 class="skillHeading">Bankend</h4>{" "}
+              <p>: NodeJs, Dotnet WebAPI, ASP.Net</p>
+            </span>
+            <br />
+
+            <span class="skills">
+              <h4 class="skillHeading">Databases</h4>{" "}
+              <p>: MySQL, MongoDB, SQLServer</p>
+            </span>
+            <br />
+
+            <span class="skills">
+              <h4 class="skillHeading">Version Controller</h4>{" "}
+              <p>: Git, GitHub</p>
+            </span>
+            <br />
+            <span class="skills">
+              <h4 class="skillHeading">OtherTools</h4>{" "}
+              <p>: Firebase, Postman, Azure</p>
+            </span>
+          </div>
         </section>
         <section>
           <h1>Hobbies :</h1>
-          <p>Playing Badminton, Watching Movies.</p>
+          <p class="hobbies">Playing Badminton, Watching Movies.</p>
+          <br />
+          <h1>Resume :</h1>
+          <p class="hobbies">
+            <a
+              href="/assets/images/Yaswanth_Geddada.pdf"
+              target="_blank"
+              class="resume"
+            >
+              Click here to view the Resume
+            </a>
+          </p>
         </section>
       </div>
       <div className="splash">
